@@ -400,6 +400,756 @@
             "responses": [
                 "I was made in 2020, if that's what you are asking!"
             ]
+        },
+        {
+            "tag": "travel_adventure",
+            "patterns": ["Adventure travel", "Travel stories", "Explore the world", "Adventure destinations", "Travel adventures"],
+            "responses": ["Adventure travel can be exhilarating. Where's your dream adventure destination?"]
+        },
+        {
+            "tag": "languages",
+            "patterns": ["Language learning", "Bilingualism", "Language tips", "Speak fluently", "Multilingualism"],
+            "responses": ["Learning new languages is a valuable skill. Which language would you like to learn or improve?"]
+        },
+        {
+            "tag": "cuisine",
+            "patterns": ["International cuisine", "Gourmet dining", "Food culture", "Culinary exploration", "Global flavors"],
+            "responses": ["International cuisine offers diverse flavors. Which country's food would you like to explore?"]
+        },
+        {
+            "tag": "cooking_tutorials",
+            "patterns": ["Cooking tutorials", "Cooking techniques", "Master the kitchen", "Culinary skills", "Cooking secrets"],
+            "responses": ["Cooking can be an art. What culinary skill would you like to master?"]
+        },
+        {
+            "tag": "foodie",
+            "patterns": ["Foodie recommendations", "Food bloggers", "Foodie adventures", "Food enthusiasts", "Food discoveries"],
+            "responses": ["Foodies have a passion for great cuisine. What culinary experience are you seeking?"]
+        },
+        {
+            "tag": "nutrition",
+            "patterns": ["Nutrition tips", "Healthy eating", "Diet advice", "Nutritional facts", "Eating habits"],
+            "responses": ["Nutrition plays a vital role in health. What nutritional advice are you looking for?"]
+        },
+        {
+            "tag": "weight_loss",
+            "patterns": ["Weight loss strategies", "Healthy weight", "Fitness goals", "Lose weight", "Weight management"],
+            "responses": ["Weight loss can be a journey. How can I assist with your weight loss goals?"]
+        },
+        {
+            "tag": "mindfulness_meditation",
+            "patterns": ["Mindfulness meditation", "Mindful living", "Meditation techniques", "Inner peace", "Mindfulness practices"],
+            "responses": ["Mindfulness meditation can bring inner peace. How can I assist with your mindfulness journey?"]
+        },
+        {
+            "tag": "stress_management",
+            "patterns": ["Stress management", "Stress relief", "Reduce stress", "Stress-free life", "Coping with stress"],
+            "responses": ["Managing stress is important for well-being. How can I assist with your stress management?"]
+        },
+        {
+            "tag": "positivity",
+            "patterns": ["Positive thinking", "Positive affirmations", "Positive mindset", "Stay positive", "Positivity"],
+            "responses": ["Positivity can improve your outlook on life. How can I assist with your positive thinking?"]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["Motivation quotes", "Stay motivated", "Motivational stories", "Inspiring motivation", "Motivate me"],
+            "responses": ["Motivation can drive success. What motivates you to achieve your goals?"]
+        },
+        {
+            "tag": "productivity",
+            "patterns": ["Productivity hacks", "Time management", "Boost productivity", "Work efficiently", "Increase efficiency"],
+            "responses": ["Productivity is key to success. What productivity tips are you looking for?"]
+        },
+        {
+            "tag": "leadership",
+            "patterns": ["Leadership skills", "Effective leadership", "Leadership qualities", "Lead with confidence", "Leadership development"],
+            "responses": ["Leadership is about guiding others. How can I assist with your leadership skills?"]
+        },
+        {
+            "tag": "team_building",
+            "patterns": ["Team building activities", "Teamwork strategies", "Build a strong team", "Team collaboration", "Team cohesion"],
+            "responses": ["Team building is crucial for success. What team-building activities are you interested in?"]
+        },
+        {
+            "tag": "communication_skills",
+            "patterns": ["Communication skills", "Effective communication", "Communication tips", "Better communication", "Master communication"],
+            "responses": ["Communication is essential in all aspects of life. How can I assist with your communication skills?"]
+        },
+        {
+            "tag": "public_speaking",
+            "patterns": ["Public speaking tips", "Confident speaking", "Speak in public", "Effective speeches", "Public speaking skills"],
+            "responses": ["Public speaking can be a valuable skill. How can I assist with your public speaking endeavors?"]
+        },
+        {
+            "tag": "career_advice",
+            "patterns": ["Career guidance", "Job search tips", "Career development", "Professional growth", "Career success"],
+            "responses": ["Your career is important. What career advice or guidance are you seeking?"]
+        },
+        {
+            "tag": "job_interview",
+            "patterns": ["Job interview tips", "Prepare for interviews", "Interview success", "Job interview strategies", "Interview skills"],
+            "responses": ["Job interviews can be nerve-wracking. How can I assist with your interview preparation?"]
+        },
+        {
+            "tag": "entrepreneurship",
+            "patterns": ["Entrepreneurship insights", "Start a business", "Entrepreneurial advice", "Business success", "Entrepreneurial journey"],
+            "responses": ["Entrepreneurship is an exciting path. How can I assist with your entrepreneurial endeavors?"]
+        },
+        {
+            "tag": "technology_trends",
+            "patterns": ["Tech trends", "Latest technology", "Tech innovations", "Future of technology", "Tech insights"],
+            "responses": ["Technology is constantly evolving. What tech trend interests you?"]
+        },
+        {
+            "tag": "innovation",
+            "patterns": ["Innovation ideas", "Innovative solutions", "Creative thinking", "Foster innovation", "Innovative projects"],
+            "responses": ["Innovation drives progress. How can I assist with your innovative ideas or projects?"]
+        },
+        {
+            "tag": "environmental_sustainability",
+            "patterns": ["Environmental sustainability", "Green living", "Sustainable practices", "Eco-conscious living", "Environment-friendly choices"],
+            "responses": ["Environmental sustainability is important. How can I assist with your eco-conscious efforts?"]
+        },
+        {
+            "tag": "fitness",
+            "patterns": ["Fitness routines", "Exercise tips", "Healthy workouts", "Stay fit", "Fitness goals"],
+            "responses": ["Fitness is a key to a healthy life. What fitness advice or routines are you looking for?"]
+        },
+        {
+            "tag": "yoga_meditation",
+            "patterns": ["Yoga practice", "Meditation techniques", "Mind-body balance", "Yoga for beginners", "Inner peace through yoga"],
+            "responses": ["Yoga and meditation promote well-being. How can I assist with your practice?"]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Sports updates", "Sports analysis", "Favorite sports", "Athletic achievements", "Sports enthusiasts"],
+            "responses": ["Sports offer excitement and competition. What sports topic would you like to discuss?"]
+        },
+        {
+            "tag": "music",
+            "patterns": ["Music recommendations", "Music genres", "Favorite songs", "Musical artists", "Music enthusiasts"],
+            "responses": ["Music can uplift the soul. What music genre or artist are you interested in?"]
+        },
+        {
+            "tag": "film_cinema",
+            "patterns": ["Movie recommendations", "Film reviews", "Cinematic experiences", "Film genres", "Movie buffs"],
+            "responses": ["Movies offer captivating stories. What movie genre or film would you like to explore?"]
+        },
+        {
+            "tag": "literature",
+            "patterns": ["Book recommendations", "Literary classics", "Reading suggestions", "Favorite books", "Bookworms"],
+            "responses": ["Literature is a world of imagination. What genre of books do you enjoy reading?"]
+        },
+        {
+            "tag": "science",
+            "patterns": ["Scientific discoveries", "Science facts", "Explore science", "Scientific inquiries", "Science enthusiasts"],
+            "responses": ["Science unveils the mysteries of the universe. What scientific topic fascinates you?"]
+        },
+        {
+            "tag": "technology_help",
+            "patterns": ["Tech support", "Technology issues", "Technical help", "Tech troubleshooting", "Gadgets problems"],
+            "responses": ["Technology can have its challenges. How can I assist with your tech issues or questions?"]
+        },
+        {
+            "tag": "art_history",
+            "patterns": ["Art history", "Famous artists", "Art movements", "Art periods", "Artistic styles"],
+            "responses": ["Art history is fascinating! Do you have any specific questions about famous artists or art movements?"]
+        },
+        {
+            "tag": "philosophy",
+            "patterns": ["Philosophy discussions", "Philosophical questions", "Philosophers", "Philosophical ideas", "Deep thoughts"],
+            "responses": ["Philosophy can lead to profound insights. What philosophical question is on your mind?"]
+        },
+        {
+            "tag": "psychology",
+            "patterns": ["Psychology insights", "Mental health", "Psychological advice", "Understanding behavior", "Psychology questions"],
+            "responses": ["Psychology is the study of the mind. How can I assist with your psychological inquiries?"]
+        },
+        {
+            "tag": "self_improvement",
+            "patterns": ["Self-improvement tips", "Personal growth", "Self-help advice", "Be a better person", "Self-development"],
+            "responses": ["Self-improvement is a journey. What aspect of personal growth are you interested in?"]
+        },
+        {
+            "tag": "relationship_advice",
+            "patterns": ["Relationship advice", "Love and dating", "Healthy relationships", "Relationship problems", "Dating tips"],
+            "responses": ["Relationships can be complex. How can I assist with your relationship advice needs?"]
+        },
+        {
+            "tag": "parenting",
+            "patterns": ["Parenting tips", "Raising children", "Parenting advice", "Parenting challenges", "Family matters"],
+            "responses": ["Parenting is a rewarding journey. What parenting advice are you seeking?"]
+        },
+        {
+            "tag": "education_tech",
+            "patterns": ["EdTech solutions", "E-learning tools", "Digital education", "Online learning", "Educational technology"],
+            "responses": ["Educational technology can enhance learning. Do you have questions about EdTech solutions?"]
+        },
+        {
+            "tag": "science_fiction",
+            "patterns": ["Science fiction", "Sci-fi books", "Sci-fi movies", "Space exploration", "Futuristic technology"],
+            "responses": ["Science fiction explores the realms of imagination. What sci-fi topic interests you?"]
+        },
+        {
+            "tag": "fantasy",
+            "patterns": ["Fantasy worlds", "Fantasy literature", "Mythical creatures", "Magical realms", "Epic fantasy"],
+            "responses": ["Fantasy literature is full of enchanting tales. Which fantasy world would you like to explore?"]
+        },
+        {
+            "tag": "superheroes",
+            "patterns": ["Superheroes", "Comic book heroes", "Superhero powers", "Favorite superheroes", "Marvel vs. DC"],
+            "responses": ["Superheroes are iconic! Who's your favorite superhero or supervillain?"]
+        },
+        {
+            "tag": "history",
+            "patterns": ["History facts", "Historical events", "Famous historical figures", "World history", "Historical knowledge"],
+            "responses": ["History is a treasure trove of stories. What historical topic intrigues you?"]
+        },
+        {
+            "tag": "ancient_civilizations",
+            "patterns": ["Ancient civilizations", "Civilization history", "Ancient mysteries", "Archaeology", "Lost civilizations"],
+            "responses": ["Ancient civilizations hold many secrets. What aspect of ancient history are you curious about?"]
+        },
+        {
+            "tag": "mythology",
+            "patterns": ["Mythology tales", "Greek mythology", "Norse mythology", "Mythological creatures", "Gods and goddesses"],
+            "responses": ["Mythology is rich with legends. Which mythological story would you like to explore?"]
+        },
+        {
+            "tag": "gadgets",
+            "patterns": ["Gadget reviews", "Latest gadgets", "Tech gadgets", "Cool devices", "Gadget enthusiasts"],
+            "responses": ["Gadgets add convenience to life. What type of gadgets are you interested in?"]
+        },
+        {
+            "tag": "fashion",
+            "patterns": ["Fashion trends", "Style tips", "Fashionable outfits", "Designer fashion", "Fashion enthusiasts"],
+            "responses": ["Fashion is a form of self-expression. What fashion trend or style advice are you seeking?"]
+        },
+        {
+            "tag": "beauty",
+            "patterns": ["Beauty tips", "Skincare routines", "Makeup advice", "Healthy skin", "Beauty enthusiasts"],
+            "responses": ["Beauty care is essential for confidence. What beauty tips or skincare advice are you looking for?"]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Travel destinations", "Adventure travel", "Travel experiences", "Explore the world", "Travel enthusiasts"],
+            "responses": ["Traveling broadens horizons. What travel destination or adventure are you planning?"]
+        },
+        {
+            "tag": "nature",
+            "patterns": ["Nature appreciation", "Outdoor adventures", "Explore nature", "Wildlife encounters", "Nature enthusiasts"],
+            "responses": ["Nature offers tranquility and beauty. What aspect of nature interests you?"]
+        },
+        {
+            "tag": "photography",
+            "patterns": ["Photography tips", "Capture moments", "Photography gear", "Master photography", "Photography enthusiasts"],
+            "responses": ["Photography preserves memories. How can I assist with your photography skills or equipment choices?"]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Pet care", "Animal lovers", "Pet adoption", "Caring for pets", "Pet enthusiasts"],
+            "responses": ["Pets bring joy and companionship. How can I assist with your pet care or pet-related questions?"]
+        },
+        {
+            "tag": "gardening",
+            "patterns": ["Gardening advice", "Grow plants", "Garden care", "Green thumbs", "Gardening enthusiasts"],
+            "responses": ["Gardening nurtures the earth. What gardening tips or plant care advice do you need?"]
+        },
+        {
+            "tag": "home_decor",
+            "patterns": ["Home decor ideas", "Interior design", "Decorate your home", "Stylish living", "Home decor enthusiasts"],
+            "responses": ["Home decor reflects your style. What home decorating ideas are you looking for?"]
+        },
+        {
+            "tag": "DIY_projects",
+            "patterns": ["DIY projects", "Crafting ideas", "Do-it-yourself", "Creative DIY", "DIY enthusiasts"],
+            "responses": ["DIY projects ignite creativity. What DIY project or crafting idea are you interested in?"]
+        },
+        {
+            "tag": "finance",
+            "patterns": ["Financial planning", "Money management", "Investment advice", "Financial goals", "Financial enthusiasts"],
+            "responses": ["Financial planning secures your future. What financial advice or investment tips are you seeking?"]
+        },
+        {
+            "tag": "retirement",
+            "patterns": ["Retirement planning", "Plan for retirement", "Retirement savings", "Enjoy retirement", "Retirement enthusiasts"],
+            "responses": ["Retirement is a new adventure. How can I assist with your retirement planning?"]
+        },
+        {
+            "tag": "budgeting",
+            "patterns": ["Budgeting tips", "Manage finances", "Budget effectively", "Frugal living", "Budget enthusiasts"],
+            "responses": ["Budgeting leads to financial stability. What budgeting tips or financial strategies do you need?"]
+        },
+        {
+            "tag": "travel_planning",
+            "patterns": ["Travel planning", "Plan a trip", "Vacation ideas", "Travel itineraries", "Travel planning enthusiasts"],
+            "responses": ["Travel planning is exciting. Where would you like to go, and how can I assist with your trip planning?"]
+        },
+        {
+            "tag": "adventure_sports",
+            "patterns": ["Adventure sports", "Extreme activities", "Adrenaline rush", "Adventure enthusiasts", "Thrill-seeking"],
+            "responses": ["Adventure sports are exhilarating. What adventure activity or sport are you interested in?"]
+        },
+        {
+            "tag": "astronomy",
+            "patterns": ["Astronomy facts", "Stargazing", "Celestial wonders", "Explore the cosmos", "Astronomy enthusiasts"],
+            "responses": ["Astronomy reveals the mysteries of the universe. What celestial phenomena intrigue you?"]
+        },
+        {
+            "tag": "aviation",
+            "patterns": ["Aviation enthusiasts", "Flight experiences", "Aircraft technology", "Pilot dreams", "Aviation adventures"],
+            "responses": ["Aviation offers a unique perspective. What aviation-related topic interests you?"]
+        },
+        {
+            "tag": "gaming",
+            "patterns": ["Video games", "Gaming tips", "Gamer community", "Gaming platforms", "Gaming enthusiasts"],
+            "responses": ["Gaming is a world of fun and competition. What video game or gaming advice are you seeking?"]
+        },
+        {
+            "tag": "anime_manga",
+            "patterns": ["Anime and manga", "Anime recommendations", "Manga series", "Otaku culture", "Anime enthusiasts"],
+            "responses": ["Anime and manga have captivating stories. What anime or manga series do you enjoy?"]
+        },
+        {
+            "tag": "cosplay",
+            "patterns": ["Cosplay community", "Cosplay ideas", "Cosplay costumes", "Cosplay enthusiasts", "Cosplay creativity"],
+            "responses": ["Cosplay brings characters to life. What cosplay ideas or costumes are you considering?"]
+        },
+        {
+            "tag": "board_games",
+            "patterns": ["Board games", "Tabletop gaming", "Board game reviews", "Game nights", "Board game enthusiasts"],
+            "responses": ["Board games offer social fun. What board game or tabletop gaming topic would you like to discuss?"]
+        },
+        {
+            "tag": "martial_arts",
+            "patterns": ["Martial arts", "Self-defense techniques", "Martial arts styles", "Martial artists", "Martial arts enthusiasts"],
+            "responses": ["Martial arts promote discipline and fitness. What martial art or self-defense technique interests you?"]
+        },
+        {
+            "tag": "dance",
+            "patterns": ["Dance styles", "Dance tutorials", "Dance enthusiasts", "Express through dance", "Dance performances"],
+            "responses": ["Dance is a beautiful form of expression. What dance style or dance tutorial are you looking for?"]
+        },
+        {
+            "tag": "artistic_crafts",
+            "patterns": ["Artistic crafts", "Crafting ideas", "Handmade creations", "Craft enthusiasts", "Artistic projects"],
+            "responses": ["Artistic crafts unleash creativity. What craft project or artistic idea are you considering?"]
+        },
+        {
+            "tag": "paranormal",
+            "patterns": ["Paranormal experiences", "Ghost stories", "UFO sightings", "Paranormal investigators", "Unexplained phenomena"],
+            "responses": ["The paranormal world is mysterious. What paranormal experience or phenomenon intrigues you?"]
+        },
+        {
+            "tag": "conspiracy_theories",
+            "patterns": ["Conspiracy theories", "Unsolved mysteries", "Government secrets", "Secret societies", "Conspiracy enthusiasts"],
+            "responses": ["Conspiracy theories are intriguing. Which conspiracy theory would you like to explore?"]
+        },
+        {
+            "tag": "mind_teasers",
+            "patterns": ["Mind teasers", "Brain puzzles", "Riddles", "Logic challenges", "Brain training"],
+            "responses": ["Mind teasers test your intellect. Do you enjoy riddles, puzzles, or logic challenges?"]
+        },
+        {
+            "tag": "space_exploration",
+            "patterns": ["Space exploration", "NASA missions", "Astronauts", "Planetary discoveries", "Space enthusiasts"],
+            "responses": ["Space exploration is fascinating. What aspect of space or astronomy are you interested in?"]
+        },
+        {
+            "tag": "fashion",
+            "patterns": ["Fashion tips", "Style advice", "Fashion trends", "Clothing", "Fashion"],
+            "responses": ["Fashion is fun! How can I assist you with your style choices?"]
+        },
+        {
+            "tag": "shopping",
+            "patterns": ["Online shopping", "Product recommendations", "Shopping deals", "Shopping", "Buy"],
+            "responses": ["I can help you find great deals and products. What are you looking for?"]
+        },
+        {
+            "tag": "finance",
+            "patterns": ["Financial advice", "Investment tips", "Money management", "Finance", "Money"],
+            "responses": ["I can provide financial advice and tips for managing your money. What's your question?"]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["Stock market updates", "Stock prices", "Investing in stocks", "Stocks", "Investments"],
+            "responses": ["I'm sorry, I cannot provide real-time stock market updates at the moment."]
+        },
+        {
+            "tag": "cryptocurrency",
+            "patterns": ["Crypto news", "Bitcoin updates", "Cryptocurrency investments", "Cryptocurrency", "Bitcoin"],
+            "responses": ["I'm sorry, I cannot provide real-time cryptocurrency updates at the moment."]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["Programming tips", "Coding help", "Programming languages", "Coding", "Developing"],
+            "responses": ["I can assist with programming and coding questions. What language are you working with?"]
+        },
+        {
+            "tag": "software",
+            "patterns": ["Software recommendations", "Software reviews", "Software", "Application suggestions", "Software tools"],
+            "responses": ["Sure, here are some software recommendations: [software]"]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["Hardware advice", "Computer hardware", "Hardware upgrades", "Hardware", "Tech gadgets"],
+            "responses": ["I can provide advice on computer hardware and tech gadgets. What's your question?"]
+        },
+        {
+            "tag": "coding",
+            "patterns": ["Coding challenges", "Code problems", "Coding exercises", "Coding", "Programming challenges"],
+            "responses": ["I can provide coding challenges and exercises. Ready for a challenge?"]
+        },
+        {
+            "tag": "gaming",
+            "patterns": ["Game recommendations", "Gaming tips", "Video games", "Gaming", "Play games"],
+            "responses": ["Sure, here are some great video game recommendations: [games]"]
+        },
+        {
+            "tag": "internet",
+            "patterns": ["Internet tips", "Online safety", "Web browsing", "Internet", "Online"],
+            "responses": ["I can provide internet tips and advice on online safety. What do you need help with?"]
+        },
+        {
+            "tag": "social_media",
+            "patterns": ["Social media tips", "Social networking", "Social media updates", "Social media", "Online presence"],
+            "responses": ["I can provide tips for building your online presence on social media. What's your platform of choice?"]
+        },
+        {
+            "tag": "languages",
+            "patterns": ["Learn a new language", "Language learning tips", "Languages", "Speak a new language", "Language skills"],
+            "responses": ["Learning a new language can be exciting! Which language are you interested in?"]
+        },
+        {
+            "tag": "art",
+            "patterns": ["Art inspiration", "Artistic ideas", "Art techniques", "Create art", "Artistic"],
+            "responses": ["Art is a wonderful form of expression. How can I inspire your artistic journey?"]
+        },
+        {
+            "tag": "environment",
+            "patterns": ["Environmental tips", "Eco-friendly living", "Save the planet", "Environment", "Green living"],
+            "responses": ["I can provide tips for eco-friendly living and helping the environment. What's your eco-goal?"]
+        },
+        {
+            "tag": "space",
+            "patterns": ["Space facts", "Astronomy", "Explore the cosmos", "Space exploration", "Outer space"],
+            "responses": ["Space is fascinating! Here's a space-related fact: [fact]"]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Pet care tips", "Adopt a pet", "Pets", "Pet ownership", "Animal companions"],
+            "responses": ["I can provide tips for pet care and advice on being a responsible pet owner. What's your pet's name?"]
+        },
+        {
+            "tag": "music",
+            "patterns": ["Music recommendations", "Favorite songs", "Music genres", "Play music", "Music"],
+            "responses": ["Sure, here are some great music recommendations: [music]"]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["Movie suggestions", "Favorite films", "Movie genres", "Watch movies", "Movies"],
+            "responses": ["I can recommend some good movies. What genre are you in the mood for?"]
+        },
+        {
+            "tag": "tv_shows",
+            "patterns": ["TV show recommendations", "Favorite series", "TV genres", "Watch TV shows", "TV"],
+            "responses": ["Looking for a new TV show to watch? I can help with that!"]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Sports updates", "Favorite teams", "Sports events", "Play sports", "Sports"],
+            "responses": ["I can provide sports updates and information on your favorite teams. What sport are you interested in?"]
+        },
+        {
+            "tag": "fitness",
+            "patterns": ["Fitness tips", "Workout routines", "Healthy exercises", "Stay fit", "Fitness"],
+            "responses": ["I can offer fitness tips and workout routines. How can I assist with your fitness goals?"]
+        },
+        {
+            "tag": "yoga",
+            "patterns": ["Yoga guidance", "Yoga poses", "Meditation tips", "Practice yoga", "Yoga"],
+            "responses": ["Yoga is a great way to relax and stay healthy. How can I assist with your yoga practice?"]
+        },
+        {
+            "tag": "meditation",
+            "patterns": ["Meditation techniques", "Mindfulness practices", "Calm my mind", "Meditate", "Meditation"],
+            "responses": ["Meditation can bring peace and clarity. Would you like guidance on meditation techniques?"]
+        },
+        {
+            "tag": "mindfulness",
+            "patterns": ["Mindfulness exercises", "Mindful living", "Be present", "Practice mindfulness", "Mindfulness"],
+            "responses": ["Mindfulness can improve well-being. How can I assist with your mindfulness journey?"]
+        },
+        {
+            "tag": "cooking",
+            "patterns": ["Cooking recipes", "Culinary tips", "Cook delicious meals", "Cooking", "Cuisine"],
+            "responses": ["Cooking is a creative endeavor. Ready to try a new recipe?"]
+        },
+        {
+            "tag": "baking",
+            "patterns": ["Baking recipes", "Bake tasty treats", "Baking tips", "Baking", "Desserts"],
+            "responses": ["Baking can be delightful. How can I assist with your baking endeavors?"]
+        },
+        {
+            "tag": "gardening",
+            "patterns": ["Gardening advice", "Plant care tips", "Grow a garden", "Gardening", "Plants"],
+            "responses": ["Gardening is a wonderful hobby. How can I assist with your gardening projects?"]
+        },
+        {
+            "tag": "conversions",
+            "patterns": ["Convert units", "Unit conversion", "Conversion", "Convert", "Change units"],
+            "responses": ["I can assist with unit conversions. What type of conversion are you looking for?"]
+        },
+        {
+            "tag": "facts",
+            "patterns": ["Tell me a fact", "Interesting fact", "Fun fact", "Did you know?", "Fascinating fact"],
+            "responses": ["Here's an interesting fact: [fact]"]
+        },
+        {
+            "tag": "trivia",
+            "patterns": ["Trivia question", "Quiz me", "Trivia", "Test my knowledge", "Quiz"],
+            "responses": ["Sure, here's a trivia question: [question]"]
+        },
+        {
+            "tag": "quotes",
+            "patterns": ["Give me a quote", "Inspirational quote", "Famous quote", "Quote of the day", "Quote"],
+            "responses": ["Here's an inspirational quote: [quote]"]
+        },
+        {
+            "tag": "riddles",
+            "patterns": ["Riddle me this", "Challenge me with a riddle", "Give me a riddle", "Riddle"],
+            "responses": ["Sure, here's a riddle: [riddle]"]
+        },
+        {
+            "tag": "compliments",
+            "patterns": ["You're great", "You're amazing", "I like you", "You're awesome", "You're the best"],
+            "responses": ["Thank you! You're pretty great too!", "I appreciate the compliment."]
+        },
+        {
+            "tag": "affirmations",
+            "patterns": ["I can do it", "I'm confident", "I'm capable", "I'm strong", "I believe in myself"],
+            "responses": ["That's the spirit! You've got this!", "You're absolutely capable."]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["Motivate me", "I need motivation", "Motivational words", "Inspire me", "Motivation"],
+            "responses": ["You're capable of achieving great things. Keep going!", "Stay motivated and reach for your goals."]
+        },
+        {
+            "tag": "horoscope",
+            "patterns": ["Horoscope", "What's my horoscope?", "Horoscope for today", "Zodiac sign", "Astrology"],
+            "responses": ["I'm not an astrologer, but I can provide general information about zodiac signs if you're interested."]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["Recommend a movie", "What should I watch?", "Movie suggestions", "Film recommendations", "Movie"],
+            "responses": ["Sure, here are some movie recommendations: [movies]"]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Sports news", "Scores", "Sports updates", "Sports", "Latest sports news"],
+            "responses": ["I'm sorry, I cannot provide real-time sports updates at the moment."]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["Tech news", "Technology updates", "Tech", "Latest tech news", "Technology trends"],
+            "responses": ["I'm sorry, I cannot provide real-time technology updates at the moment."]
+        },
+        {
+            "tag": "history",
+            "patterns": ["History facts", "Historical events", "History", "Interesting history", "History trivia"],
+            "responses": ["Sure, here's a historical fact: [fact]"]
+        },
+        {
+            "tag": "science",
+            "patterns": ["Science facts", "Scientific discoveries", "Science", "Amazing science", "Science trivia"],
+            "responses": ["Here's an interesting science fact: [fact]"]
+        },
+        {
+            "tag": "geography",
+            "patterns": ["Geography facts", "Fascinating places", "Geography", "Interesting geography", "Geography trivia"],
+            "responses": ["Sure, here's a geography fact: [fact]"]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Travel tips", "Travel recommendations", "Travel", "Vacation ideas", "Travel suggestions"],
+            "responses": ["I can provide travel tips and recommendations. Where are you planning to go?"]
+        },
+        {
+            "tag": "food",
+            "patterns": ["Recipe ideas", "Cooking tips", "Food recommendations", "Cuisine", "Food"],
+            "responses": ["Sure, here are some delicious recipe ideas: [recipes]"]
+        },
+        {
+            "tag": "health",
+            "patterns": ["Health tips", "Wellness advice", "Healthy living", "Health", "Fitness"],
+            "responses": ["I can provide health and wellness tips. What aspect of health are you interested in?"]
+        },
+        {
+            "tag": "education",
+            "patterns": ["Learn something new", "Educational facts", "Expand my knowledge", "Education", "Learn"],
+            "responses": ["Knowledge is power! Here's something interesting to learn: [fact]"]
+        },
+        {
+            "tag": "books",
+            "patterns": ["Book recommendations", "What should I read?", "Literature suggestions", "Books", "Reading"],
+            "responses": ["Certainly, here are some book recommendations: [books]"]
+        },
+        {
+            "tag": "fashion",
+            "patterns": ["Fashion tips", "Style advice", "Fashion trends", "Clothing", "Fashion"],
+            "responses": ["Fashion is fun! How can I assist you with your style choices?"]
+        },
+        {
+            "tag": "shopping",
+            "patterns": ["Online shopping", "Product recommendations", "Shopping deals", "Shopping", "Buy"],
+            "responses": ["I can help you find great deals and products. What are you looking for?"]
+        },
+        {
+            "tag": "finance",
+            "patterns": ["Financial advice", "Investment tips", "Money management", "Finance", "Money"],
+            "responses": ["I can provide financial advice and tips for managing your money. What's your question?"]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["Stock market updates", "Stock prices", "Investing in stocks", "Stocks", "Investments"],
+            "responses": ["I'm sorry, I cannot provide real-time stock market updates at the moment."]
+        },
+        {
+            "tag": "cryptocurrency",
+            "patterns": ["Crypto news", "Bitcoin updates", "Cryptocurrency investments", "Cryptocurrency", "Bitcoin"],
+            "responses": ["I'm sorry, I cannot provide real-time cryptocurrency updates at the moment."]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["Programming tips", "Coding help", "Programming languages", "Coding", "Developing"],
+            "responses": ["I can assist with programming and coding questions. What language are you working with?"]
+        },
+        {
+            "tag": "software",
+            "patterns": ["Software recommendations", "Software reviews", "Software", "Application suggestions", "Software tools"],
+            "responses": ["Sure, here are some software recommendations: [software]"]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["Hardware advice", "Computer hardware", "Hardware upgrades", "Hardware", "Tech gadgets"],
+            "responses": ["I can provide advice on computer hardware and tech gadgets. What's your question?"]
+        },
+        {
+            "tag": "coding",
+            "patterns": ["Coding challenges", "Code problems", "Coding exercises", "Coding", "Programming challenges"],
+            "responses": ["I can provide coding challenges and exercises. Ready for a challenge?"]
+        },
+        {
+            "tag": "gaming",
+            "patterns": ["Game recommendations", "Gaming tips", "Video games", "Gaming", "Play games"],
+            "responses": ["Sure, here are some great video game recommendations: [games]"]
+        },
+        {
+            "tag": "internet",
+            "patterns": ["Internet tips", "Online safety", "Web browsing", "Internet", "Online"],
+            "responses": ["I can provide internet tips and advice on online safety. What do you need help with?"]
+        },
+        {
+            "tag": "social_media",
+            "patterns": ["Social media tips", "Social networking", "Social media updates", "Social media", "Online presence"],
+            "responses": ["I can provide tips for building your online presence on social media. What's your platform of choice?"]
+        },
+        {
+            "tag": "languages",
+            "patterns": ["Learn a new language", "Language learning tips", "Languages", "Speak a new language", "Language skills"],
+            "responses": ["Learning a new language can be exciting! Which language are you interested in?"]
+        },
+        {
+            "tag": "art",
+            "patterns": ["Art inspiration", "Artistic ideas", "Art techniques", "Create art", "Artistic"],
+            "responses": ["Art is a wonderful form of expression. How can I inspire your artistic journey?"]
+        },
+        {
+            "tag": "environment",
+            "patterns": ["Environmental tips", "Eco-friendly living", "Save the planet", "Environment", "Green living"],
+            "responses": ["I can provide tips for eco-friendly living and helping the environment. What's your eco-goal?"]
+        },
+        {
+            "tag": "space",
+            "patterns": ["Space facts", "Astronomy", "Explore the cosmos", "Space exploration", "Outer space"],
+            "responses": ["Space is fascinating! Here's a space-related fact: [fact]"]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Pet care tips", "Adopt a pet", "Pets", "Pet ownership", "Animal companions"],
+            "responses": ["I can provide tips for pet care and advice on being a responsible pet owner. What's your pet's name?"]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Travel tips", "Travel recommendations", "Travel", "Vacation ideas", "Travel suggestions"],
+            "responses": ["I can provide travel tips and recommendations. Where are you planning to go?"]
+        },
+        {
+            "tag": "food",
+            "patterns": ["Recipe ideas", "Cooking tips", "Food recommendations", "Cuisine", "Food"],
+            "responses": ["Sure, here are some delicious recipe ideas: [recipes]"]
+        },
+        {
+            "tag": "health",
+            "patterns": ["Health tips", "Wellness advice", "Healthy living", "Health", "Fitness"],
+            "responses": ["I can provide health and wellness tips. What aspect of health are you interested in?"]
+        },
+        {
+            "tag": "education",
+            "patterns": ["Learn something new", "Educational facts", "Expand my knowledge", "Education", "Learn"],
+            "responses": ["Knowledge is power! Here's something interesting to learn: [fact]"]
+        },
+        {
+            "tag": "books",
+            "patterns": ["Book recommendations", "What should I read?", "Literature suggestions", "Books", "Reading"],
+            "responses": ["Certainly, here are some book recommendations: [books]"]
+        },
+        {
+            "tag": "fashion",
+            "patterns": ["Fashion tips", "Style advice", "Fashion trends", "Clothing", "Fashion"],
+            "responses": ["Fashion is fun! How can I assist you with your style choices?"]
+        },
+        {
+            "tag": "shopping",
+            "patterns": ["Online shopping", "Product recommendations", "Shopping deals", "Shopping", "Buy"],
+            "responses": ["I can help you find great deals and products. What are you looking for?"]
+        },
+        {
+            "tag": "finance",
+            "patterns": ["Financial advice", "Investment tips", "Money management", "Finance", "Money"],
+            "responses": ["I can provide financial advice and tips for managing your money. What's your question?"]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["Stock market updates", "Stock prices", "Investing in stocks", "Stocks", "Investments"],
+            "responses": ["I'm sorry, I cannot provide real-time stock market updates at the moment."]
+        },
+        {
+            "tag": "cryptocurrency",
+            "patterns": ["Crypto news", "Bitcoin updates", "Cryptocurrency investments", "Cryptocurrency", "Bitcoin"],
+            "responses": ["I'm sorry, I cannot provide real-time cryptocurrency updates at the moment."]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["Programming tips", "Coding help", "Programming languages", "Coding", "Developing"],
+            "responses": ["I can assist with programming and coding questions. What language are you working with?"]
+        },
+        {
+            "tag": "software",
+            "patterns": ["Software recommendations", "Software reviews", "Software", "Application suggestions", "Software tools"],
+            "responses": ["Sure, here are some software recommendations: [software]"]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["Hardware advice", "Computer hardware", "Hardware upgrades", "Hardware", "Tech gadgets"],
+            "responses": ["I can provide advice on computer hardware and tech gadgets. What's your question?"]
+        },
+        {
+            "tag": "coding",
+            "patterns": ["Coding challenges", "Code problems", "Coding exercises", "Coding", "Programming challenges"],
+            "responses": ["I can provide coding challenges and exercises. Ready for a challenge?"]
         }
     ]
 }

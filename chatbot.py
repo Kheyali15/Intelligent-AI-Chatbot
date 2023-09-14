@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
+from sklearn.metrics import classification_report, confusion_matrix
 lemmatizer = WordNetLemmatizer()
 
 from tensorflow.keras.models import load_model
@@ -57,6 +58,54 @@ def get_response(intents_list, intents_json):
                 break
 
     return result
+
+# Define a function to predict the intent of a sentence
+def predict_intent(sentence):
+    bow = bag_of_words(sentence)
+    res = model.predict(np.array([bow]))[0]
+    ERROR_THRESHOLD = 0.25
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    results.sort(key=lambda x: x[1], reverse=True)
+    return_list = []
+    for r in results:
+        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+    return return_list
+
+test_data = [
+    {"query": "How's the weather today?", "intent": "weather"},
+    {"query": "Tell me a joke", "intent": "jokes"},
+    # Add more test data as needed
+]
+
+# Initialize lists to store true and predicted labels
+true_labels = []
+predicted_labels = []
+
+# Make predictions for the test data and collect true labels
+for example in test_data:
+    query = example["query"]
+    true_intent = example["intent"]
+    predicted_intent = predict_intent(query)[0]["intent"]
+
+    true_labels.append(true_intent)
+    predicted_labels.append(predicted_intent)
+
+# Calculate and print the confusion matrix and classification report
+confusion_mtx = confusion_matrix(true_labels, predicted_labels, labels=classes)
+class_report = classification_report(true_labels, predicted_labels, labels=classes)
+
+print("Confusion Matrix:")
+print(confusion_mtx)
+
+print("\nClassification Report:")
+print(class_report)
+
+# Calculate accuracy from the confusion matrix
+accuracy = (np.trace(confusion_mtx) / np.sum(confusion_mtx)) * 100
+
+print("Accuracy:", accuracy)
+
+
 
 print("GO! Bot is running!")
 
