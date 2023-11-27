@@ -4,13 +4,15 @@ import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-from sklearn.metrics import classification_report, confusion_matrix
-lemmatizer = WordNetLemmatizer()
+from sklearn.metrics import confusion_matrix, classification_report
 
 from tensorflow.keras.models import load_model
+lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
+# print(words)
+# print(classes)
 model = load_model('chatbotmodel.h5')
 
 def clean_up_sentence(sentence):
@@ -38,74 +40,66 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     # filter out predictions below a threshold
     bow = bag_of_words(sentence)
+    # print(bow)
     res = model.predict(np.array([bow]))[0]
+    # print(res)
     ERROR_THRESHOLD = 0.25
     results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
+    # print(results)
     # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
+    # print(results)
     return_list = []
     for r in results:
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+    # print(return_list)
     return return_list
 
 def get_response(intents_list, intents_json):
-    if intents_list:
-        tag = intents_list[0]['intent']
-        list_of_intents = intents_json['intents']
-        for i in list_of_intents:
-            if i['tag'] == tag:
-                result = random.choice(i['responses'])
-                break
-
+    tag = intents_list[0]['intent']
+    # print(tag)
+    list_of_intents = intents_json['intents']
+    # print(list_of_intents)
+    for i in list_of_intents:
+        if(i['tag']== tag):
+            result = random.choice(i['responses'])
+            break
     return result
 
-# Define a function to predict the intent of a sentence
-def predict_intent(sentence):
-    bow = bag_of_words(sentence)
-    res = model.predict(np.array([bow]))[0]
-    ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
-    return return_list
 
-test_data = [
-    {"query": "How's the weather today?", "intent": "weather"},
-    {"query": "Tell me a joke", "intent": "jokes"},
-    # Add more test data as needed
-]
+# test_data = [
+#     {"query": "How's the weather today?", "intent": "weather"},
+#     {"query": "Tell me a joke", "intent": "jokes"},
+#     # Add more test data as needed
+# ]
 
-# Initialize lists to store true and predicted labels
-true_labels = []
-predicted_labels = []
+# # Initialize lists to store true and predicted labels
+# true_labels = []
+# predicted_labels = []
 
-# Make predictions for the test data and collect true labels
-for example in test_data:
-    query = example["query"]
-    true_intent = example["intent"]
-    predicted_intent = predict_intent(query)[0]["intent"]
+# # Make predictions for the test data and collect true labels
+# for example in test_data:
+#     query = example["query"]
+#     true_intent = example["intent"]
+#     predicted_intent = predict_class(query)[0]["intent"]
 
-    true_labels.append(true_intent)
-    predicted_labels.append(predicted_intent)
+#     true_labels.append(true_intent)
+#     predicted_labels.append(predicted_intent)
 
-# Calculate and print the confusion matrix and classification report
-confusion_mtx = confusion_matrix(true_labels, predicted_labels, labels=classes)
-class_report = classification_report(true_labels, predicted_labels, labels=classes)
+# # Calculate and print the confusion matrix and classification report
+# confusion_mtx = confusion_matrix(true_labels, predicted_labels, labels=classes)
+# class_report = classification_report(true_labels, predicted_labels, labels=classes)
 
-print("Confusion Matrix:")
-print(confusion_mtx)
+# print("Confusion Matrix:")
+# print(confusion_mtx)
 
-print("\nClassification Report:")
-print(class_report)
+# print("\nClassification Report:")
+# print(class_report)
 
-# Calculate accuracy from the confusion matrix
-accuracy = (np.trace(confusion_mtx) / np.sum(confusion_mtx)) * 100
+# # Calculate accuracy from the confusion matrix
+# accuracy = (np.trace(confusion_mtx) / np.sum(confusion_mtx)) * 100
 
-print("Accuracy:", accuracy)
-
-
+# print("Accuracy:", accuracy)
 
 print("GO! Bot is running!")
 
